@@ -25,6 +25,16 @@ This repository includes several notebooks that cover topics such as text prepro
   - Leveraging word embeddings from GloVe and spaCy to calculate cosine similarity, Euclidean distance, Manhattan distance, Jaccard similarity, and Pearson correlation.
   - Detailed explanations and mathematical formulas for each similarity/distance metric.
 
+- **Spam&NotSpam.ipynb**  
+  *Topics Covered:*
+  - Loading and exploring a spam detection dataset.
+  - Cleaning and preprocessing text data.
+  - Creating word embeddings using GloVe.
+  - Training a Logistic Regression model for spam detection.
+  - Evaluating model performance with accuracy, classification report, and confusion matrix.
+  - Visualizing data with word clouds and pie charts.
+  - Making sample predictions on new texts.
+
 ---
 
 ## Flow of Topics
@@ -40,6 +50,7 @@ This repository includes several notebooks that cover topics such as text prepro
    - Stemming and lemmatization are performed and compared.
    - FrequencyAnalysis.ipynb counts word occurrences and visualizes trends.
    - SimilarityMeasure.ipynb extracts text features and computes various similarity metrics.
+   - *Spam&NotSpam.ipynb* creates word embeddings and trains a spam detection model.
 
 4. **Visualization & Performance Comparison**  
    Each notebook includes visualizations—such as charts, graphs, and word clouds—to help interpret the analysis results and performance comparisons.
